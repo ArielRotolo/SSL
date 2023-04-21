@@ -6,9 +6,9 @@
 
 int main(void) {
 
-    FILE *fp;
+	FILE *fp;
 
-    fp = fopen("output.txt", "w");
+	fp = fopen("output.txt", "w");
 
 	if(fp == NULL){
 
@@ -22,8 +22,8 @@ int main(void) {
 
 	fclose(fp);
 
-    printf("Hello, world!\n");
+	printf("Hello, world!\n");
     
-    return OK;
+	return OK;
 
 }
